@@ -69,6 +69,6 @@ def main():
     plt.axis((-6, 6, -6, 6))
     plt.title('Angle between vectors: %s rad. '%theta)
     plt.show()
-    
+
 
 main()
