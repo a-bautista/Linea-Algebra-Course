@@ -30,6 +30,7 @@ def main():
     # (2.54*-1.24) + (-0.34*2.31) + (9.21*8.11) = some number
     # (9.03*2.13)  + (9.23*2.21)  + (-0.23*-0.56) = another number
 
+
     dps = np.zeros(n)
     for i in range(n):
         dps[i] = np.dot(A[:,i], B[:,i])
